@@ -1,6 +1,9 @@
 {
   "name": "@ulivz/get-event-listeners",
   "version": "0.0.1",
+  "publishConfig": {
+    "access": "public"
+  },
   "description": "An event interceptor allowing you to get all the event listeners of an element",
   "repository": {
     "url": "ulivz/get-event-listeners",
