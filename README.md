@@ -11,8 +11,10 @@ yarn add get-event-listeners
 
 ## Usage
 
+
+
 ```js
-const getEventListeners = require('get-event-listeners')
+const { getEventListeners } = require('get-event-listeners')
 
 getEventListeners()
 //=> foo

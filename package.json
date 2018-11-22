@@ -6,15 +6,14 @@
     "url": "ulivz/get-event-listeners",
     "type": "git"
   },
-  "main": "dist/get-event-listeners.cjs.js",
-  
+  "main": "dist/get-event-listeners.js",
   "files": [
     "dist"
   ],
   "scripts": {
     "test": " && echo 'no tests!'",
     "prepublishOnly": "npm run build",
-    "build": "bili"
+    "build": "bili --format umd,umd-min"
   },
   "author": "ulivz <chl814@foxmail.com>",
   "license": "MIT",
