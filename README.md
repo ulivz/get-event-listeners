@@ -1,7 +1,7 @@
 
-# get-event-listeners
+# @ulivz/get-event-listeners
 
-[![NPM version](https://badgen.net/npm/v/get-event-listeners)](https://npmjs.com/package/get-event-listeners) [![NPM downloads](https://badgen.net/npm/dm/get-event-listeners)](https://npmjs.com/package/get-event-listeners) [![CircleCI](https://badgen.net/circleci/github/ulivz/get-event-listeners/master)](https://circleci.com/gh/ulivz/get-event-listeners/tree/master) 
+[![NPM version](https://badgen.net/npm/v/@ulivz/get-event-listeners)](https://npmjs.com/package/@ulivz/get-event-listeners) [![NPM downloads](https://badgen.net/npm/dm/@ulivz/get-event-listeners)](https://npmjs.com/package/@ulivz/get-event-listeners)
 
 ## Usage
 
@@ -10,7 +10,7 @@ In order to capture all the events, you need to introduce this script in the hea
 - From CDN:
 
 ```html
-<script src="https://unpkg.com/@ulivz/get-event-listeners@0.0.1/dist/get-event-listeners.min.js">
+<script src="https://unpkg.com/@ulivz/get-event-listeners@0.0.1/dist/@ulivz/get-event-listeners.min.js">
 ```
 
 - From local file:
@@ -40,7 +40,7 @@ Get event listenrs of all elements
 
 ## Author
 
-**get-event-listeners** © [ULIVZ](https://github.com/ulivz), Released under the [MIT](./LICENSE) License.<br>
+**@ulivz/get-event-listeners** © [ULIVZ](https://github.com/ulivz), Released under the [MIT](./LICENSE) License.<br>
 Authored and maintained by ULIVZ with help from contributors ([list](https://github.com/ulivz/get-event-listeners/contributors)).
 
 > [github.com/ulivz](https://github.com/ulivz) · GitHub [@ULIVZ](https://github.com/ulivz) · Twitter [@_ulivz](https://twitter.com/_ulivz)
