@@ -3,22 +3,31 @@
 
 [![NPM version](https://badgen.net/npm/v/get-event-listeners)](https://npmjs.com/package/get-event-listeners) [![NPM downloads](https://badgen.net/npm/dm/get-event-listeners)](https://npmjs.com/package/get-event-listeners) [![CircleCI](https://badgen.net/circleci/github/ulivz/get-event-listeners/master)](https://circleci.com/gh/ulivz/get-event-listeners/tree/master) 
 
-## Install
-
-```bash
-yarn add get-event-listeners
-```
-
 ## Usage
 
+In order to capture all the events, you need to introduce this script in the head of your HTML:
 
+- From CDN:
 
-```js
-const { getEventListeners } = require('get-event-listeners')
-
-getEventListeners()
-//=> foo
+```html
+<script src="https://unpkg.com/@ulivz/get-event-listeners@0.0.1/dist/get-event-listeners.min.js">
 ```
+
+- From local file:
+
+```html
+<script src="./get-event-listeners.min.js">
+```
+
+## API
+
+### getEventListeners(HTMLElement)
+
+Get event listenrs of a particular element
+
+### getAllEventListeners()
+
+Get event listenrs of all elements
 
 ## Contributing
 
