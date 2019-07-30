@@ -22,6 +22,6 @@
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
-    "bili": "^3.3.0"
+    "bili": "^4.8.1"
   }
 }
